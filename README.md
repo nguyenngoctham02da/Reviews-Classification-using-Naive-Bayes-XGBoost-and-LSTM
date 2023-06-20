@@ -9,21 +9,35 @@ Then I will build a text classification model. I use 3 models which are Naive Ba
 The outline of the project as below:
 1. Data mining
 2. Pre-processing
-  2.1. Drop null value of summary column
-  2.2. Convert the data type of rate and price column to numeric form
-  2.3. Find and remove outliers and anomalies
-  2.4. Create more useful columns: convert sentiment to numeric form, create additional columns length_of_text
+
+   2.1. Drop null value of summary column
+
+   2.2. Convert the data type of rate and price column to numeric form
+
+   2.3. Find and remove outliers and anomalies
+
+   2.4. Create more useful columns: convert sentiment to numeric form, create additional columns length_of_text
 3. EDA
-  3.1. Distribution of price, rating and length of text
-  3.2. Percentage of sentiment and rating
-  3.3. Correlation between sentiment-length of text, sentiment and rating
-4. Text processing
-  4.1. Remove punctuations
-  4.2. Tokenize and remove stop words
-  4.3. Lemmatize
-  4.4. Drawing word clouds
-5. Building models
-  5.1. Naive Bayes
-  5.2. XGBoost
-  5.3. LSTM
-6. Conclusion
+
+   3.1. Distribution of price, rating and length of text
+
+   3.2. Percentage of sentiment and rating
+
+   3.3. Correlation between sentiment-length of text, sentiment and rating
+5. Text processing
+
+   4.1. Remove punctuations
+
+   4.2. Tokenize and remove stop words
+
+   4.3. Lemmatize
+
+   4.4. Drawing word clouds
+7. Building models
+
+   5.1. Naive Bayes
+
+   5.2. XGBoost
+
+   5.3. LSTM
+9. Conclusion
